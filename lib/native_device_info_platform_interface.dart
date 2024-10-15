@@ -34,4 +34,8 @@ abstract class NativeDeviceInfoPlatform extends PlatformInterface {
   Stream<String> get chargingStatus {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
+
+  Stream<String> get connectionStatus {
+    throw UnimplementedError('platformVersion() has not been implemented.');
+  }
 }

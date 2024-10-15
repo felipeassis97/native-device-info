@@ -12,4 +12,8 @@ class NativeDeviceInfo {
   /// ⚡️ Listen to charging state changes
   static Stream<String> get chargingStatus =>
       NativeDeviceInfoPlatform.instance.chargingStatus;
+
+  /// ⚡️ Listen to charging state changes
+  static Stream<String> get connectionStatus =>
+      NativeDeviceInfoPlatform.instance.connectionStatus;
 }
